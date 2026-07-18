@@ -15,7 +15,6 @@ import pergoladoCapaVideo from "../assets/projects/pergolados-bem-estar/pergolad
 import pergoladoFoto01 from "../assets/projects/pergolados-bem-estar/pergolado01.jpeg";
 import pergoladoFoto02 from "../assets/projects/pergolados-bem-estar/pergolado02.jpeg";
 import ninhoUsoRealista from "../assets/projects/pergolados-bem-estar/ninho-uso-realista.png";
-import ninhoUsoRealista02 from "../assets/projects/pergolados-bem-estar/ninho-uso-realista-02.png";
 import ninhoUsoPiscina from "../assets/projects/pergolados-bem-estar/ninho-uso-piscina.png";
 import suporteRedeCampo from "../assets/projects/pergolados-bem-estar/suporte-rede-campo.png";
 import suporteRedeCampo02 from "../assets/projects/pergolados-bem-estar/suporte-rede-campo-02.png";
@@ -105,8 +104,8 @@ function Projects() {
         <div className="container" data-reveal>
           <div className="section-heading">
             <span className="section-kicker">Projetos</span>
-            <h2>Projetos e solucoes industriais</h2>
-            <p>Conheca algumas possibilidades de atuacao da Axis Industria.</p>
+            <h2>Projetos e soluções industriais</h2>
+            <p>Conheça algumas possibilidades de atuação da Figueroa Indústria.</p>
           </div>
 
           <div className="card-grid card-grid-three">

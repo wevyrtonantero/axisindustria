@@ -9,7 +9,7 @@ function ProjectsPage() {
     <>
       <PageIntro
         kicker="Projetos"
-        title="Projetos e solucoes aplicadas ao ambiente industrial"
+        title="Projetos e soluções aplicadas ao ambiente industrial"
         text=""
         variant="projects"
         backgroundImage={projectsHeroImage}

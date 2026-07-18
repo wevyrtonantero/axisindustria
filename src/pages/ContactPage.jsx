@@ -8,8 +8,8 @@ function ContactPage() {
     <>
       <PageIntro
         kicker="Contato"
-        title="Fale com a Axis Industria"
-        text="Pagina dedicada para contato institucional, com os dados comerciais centralizados e pronta para atualizacao futura com telefone, email e localizacao definitivos."
+        title="Fale com a Figueroa Indústria"
+        text="Página dedicada para contato institucional, com os dados comerciais centralizados e pronta para atualização futura com telefone e localização definitivos."
       />
       <Contact />
       <ContactCTA whatsappLink={WHATSAPP_LINK} />

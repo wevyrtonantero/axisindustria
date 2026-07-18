@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/axis-logo.png";
+import logo from "../assets/figueroa-logo.png";
 import { FOOTER_COMMERCIAL, FOOTER_SUMMARY, INOVA_SCRIPT_LINK } from "../siteContent";
 
 function Footer({ navItems, whatsappLink }) {
@@ -9,15 +9,15 @@ function Footer({ navItems, whatsappLink }) {
       <footer className="site-footer">
         <div className="container footer-grid footer-grid-rich">
           <div className="footer-brand">
-            <img src={logo} alt="Logo Axis Industria" />
+            <img src={logo} alt="Logo Figueroa Indústria" />
             <p>
-              Axis Industria - manutencao, reforma e desenvolvimento de maquinas,
-              conjuntos e solucoes industriais sob medida.
+              Figueroa Indústria - manutenção, reforma e desenvolvimento de máquinas,
+              conjuntos e soluções industriais sob medida.
             </p>
           </div>
 
           <div className="footer-column">
-            <h3>Navegacao</h3>
+            <h3>Navegação</h3>
             <div className="footer-link-list">
               {navItems.map((item) => (
                 <NavLink key={item.href} to={item.href}>
@@ -47,7 +47,7 @@ function Footer({ navItems, whatsappLink }) {
         </div>
 
         <div className="container footer-bottom footer-bottom-rich">
-          <span>Copyright 2026 Axis Industria. Direitos reservados.</span>
+          <span>Copyright 2026 Figueroa Indústria. Direitos reservados.</span>
           <a href={INOVA_SCRIPT_LINK} target="_blank" rel="noreferrer">
             Site desenvolvido pela <strong>Inova Script</strong>
           </a>

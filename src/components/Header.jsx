@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
-import logo from "../assets/axis-logo.png";
+import logo from "../assets/figueroa-logo.png";
 
 function Header({ navItems }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,8 +26,8 @@ function Header({ navItems }) {
   return (
     <header className={`site-header ${isHome ? "site-header-overlay" : "site-header-solid"}`}>
       <div className="container header-inner">
-        <NavLink className="brand" to="/" aria-label="Ir para o inicio">
-          <img src={logo} alt="Logo Axis Industria" />
+        <NavLink className="brand" to="/" aria-label="Ir para o início">
+          <img src={logo} alt="Logo Figueroa Indústria" />
         </NavLink>
 
         <button

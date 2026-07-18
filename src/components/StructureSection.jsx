@@ -7,27 +7,27 @@ import weldingOperatorImage from "../assets/structure-welding-operator-v1.png";
 const EQUIPMENT_GROUPS = [
   {
     title: "Tornos e usinagem",
-    text: "Equipamentos para operacoes de usinagem, desenvolvimento tecnico e manutencao de maquinas com precisao e versatilidade.",
+    text: "Equipamentos para operações de usinagem, desenvolvimento técnico e manutenção de máquinas com precisão e versatilidade.",
     icon: Drill,
-    items: ["Torno CNC", "Torno convencional", "Torno revolver", "Torno automatico"],
+    items: ["Torno CNC", "Torno convencional", "Torno revólver", "Torno automático"],
     image: latheOperatorImage,
-    alt: "Operador trabalhando em um torno convencional no chao de fabrica",
+    alt: "Operador trabalhando em um torno convencional no chão de fábrica",
   },
   {
-    title: "Retifica e acabamento",
-    text: "Recursos para apoio fabril, preparacao de componentes e acabamento tecnico de acordo com a necessidade de cada projeto.",
+    title: "Retífica e acabamento",
+    text: "Recursos para apoio fabril, preparação de componentes e acabamento técnico de acordo com a necessidade de cada projeto.",
     icon: Layers2,
-    items: ["Laminadora", "Retifica"],
+    items: ["Laminadora", "Retífica"],
     image: grinderOperatorImage,
-    alt: "Operador trabalhando em uma retifica no chao de fabrica",
+    alt: "Operador trabalhando em uma retífica no chão de fábrica",
   },
   {
-    title: "Solda e fabricacao",
-    text: "Processos para atender desde manutencoes tecnicas ate o desenvolvimento de novos conjuntos industriais sob medida.",
+    title: "Solda e fabricação",
+    text: "Processos para atender desde manutenções técnicas até o desenvolvimento de novos conjuntos industriais sob medida.",
     icon: Sparkles,
-    items: ["Solda", "Desenvolvimento de conjuntos", "Projetos de maquinas", "Solucoes sob medida"],
+    items: ["Solda", "Desenvolvimento de conjuntos", "Projetos de máquinas", "Soluções sob medida"],
     image: weldingOperatorImage,
-    alt: "Operador soldando em area de fabricacao industrial",
+    alt: "Operador soldando em área de fabricação industrial",
   },
 ];
 
@@ -36,9 +36,9 @@ const RESOURCE_TAGS = [
   "Torno convencional",
   "Solda",
   "Laminadora",
-  "Retifica",
-  "Torno revolver",
-  "Torno automatico",
+  "Retífica",
+  "Torno revólver",
+  "Torno automático",
 ];
 
 function StructureSection() {
@@ -50,16 +50,16 @@ function StructureSection() {
           <h2>Nossa estrutura e recursos</h2>
           <p>
             Contamos com equipamentos e processos que nos permitem desenvolver a melhor
-            manutencao e o melhor projeto de maquinas possivel para cada demanda.
+            manutenção e o melhor projeto de máquinas possível para cada demanda.
           </p>
         </div>
 
         <div className="structure-stage">
           <div className="structure-stage-copy">
             <p className="structure-lead">
-              A Axis Industria possui estrutura tecnica para atuar em manutencao,
-              desenvolvimento de projetos e fabricacao de conjuntos, reunindo
-              equipamentos que apoiam desde a analise e modelagem ate a execucao
+              A Figueroa Indústria possui estrutura técnica para atuar em manutenção,
+              desenvolvimento de projetos e fabricação de conjuntos, reunindo
+              equipamentos que apoiam desde a análise e modelagem até a execução
               industrial.
             </p>
 
@@ -76,9 +76,9 @@ function StructureSection() {
                 <Factory size={22} />
               </div>
               <p>
-                Com essa estrutura, conseguimos atender desde servicos especificos ate
-                projetos mais completos, sempre com foco em qualidade, precisao e
-                entrega tecnica.
+                Com essa estrutura, conseguimos atender desde serviços específicos até
+                projetos mais completos, sempre com foco em qualidade, precisão e
+                entrega técnica.
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ function StructureSection() {
           <div className="structure-visual-card">
             <img
               src={structureVisual}
-              alt="Equipe da Axis trabalhando no chao de fabrica com maquinas e estrutura industrial"
+              alt="Equipe da Figueroa trabalhando no chão de fábrica com máquinas e estrutura industrial"
             />
           </div>
         </div>

@@ -4,22 +4,22 @@ import cad3dVisual from "../assets/cad-team-conveyor-planning-v1.png";
 const CAD_FEATURES = [
   {
     title: "Estudo 3D",
-    text: "Desenvolvimento de modelos tridimensionais para visualizacao, validacao e planejamento tecnico.",
+    text: "Desenvolvimento de modelos tridimensionais para visualização, validação e planejamento técnico.",
     icon: Layers3,
   },
   {
-    title: "Detalhamento tecnico",
-    text: "Elaboracao de projetos industriais com foco em detalhamento, funcionalidade e viabilidade construtiva.",
+    title: "Detalhamento técnico",
+    text: "Elaboração de projetos industriais com foco em detalhamento, funcionalidade e viabilidade construtiva.",
     icon: Ruler,
   },
   {
-    title: "Documentacao tecnica",
-    text: "Preparacao de documentacao tecnica para fabricacao, montagem, adaptacao e execucao dos projetos.",
+    title: "Documentação técnica",
+    text: "Preparação de documentação técnica para fabricação, montagem, adaptação e execução dos projetos.",
     icon: FileText,
   },
   {
     title: "Projetos do zero",
-    text: "Criamos projetos estruturais e projetos de maquinas do zero, de acordo com a necessidade real de cada cliente.",
+    text: "Criamos projetos estruturais e projetos de máquinas do zero, de acordo com a necessidade real de cada cliente.",
     icon: Cog,
   },
 ];
@@ -32,8 +32,8 @@ function Cad3DSection() {
           <span className="section-kicker">CAD 3D</span>
           <h2>Projetos em CAD 3D e desenvolvimento sob medida</h2>
           <p>
-            Criamos solucoes do zero, com desenvolvimento em CAD 3D, documentacao
-            tecnica e projetos industriais sob medida.
+            Criamos soluções do zero, com desenvolvimento em CAD 3D, documentação
+            técnica e projetos industriais sob medida.
           </p>
         </div>
 
@@ -41,29 +41,29 @@ function Cad3DSection() {
           <div className="cad3d-visual-card">
             <img
               src={cad3dVisual}
-              alt="Equipe tecnica planejando uma esteira transportadora em modelagem 3D e projeto industrial"
+              alt="Equipe técnica planejando uma esteira transportadora em modelagem 3D e projeto industrial"
             />
           </div>
 
           <div className="cad3d-copy-panel">
             <p className="cad3d-lead">
-              A Axis Industria tambem atua no desenvolvimento de projetos do zero,
-              criando solucoes tecnicas sob medida para diferentes necessidades
+              A Figueroa Indústria também atua no desenvolvimento de projetos do zero,
+              criando soluções técnicas sob medida para diferentes necessidades
               industriais. Nossa equipe trabalha com desenvolvimento em CAD 3D e
-              documentacao tecnica, garantindo mais precisao, visualizacao e seguranca
-              em cada etapa do desenvolvimento das maquinas e conjuntos.
+              documentação técnica, garantindo mais precisão, visualização e segurança
+              em cada etapa do desenvolvimento das máquinas e conjuntos.
             </p>
 
             <div className="cad3d-chip-row">
               <span className="visual-chip">Equipe de desenvolvimento</span>
               <span className="visual-chip">Projetos sob medida</span>
-              <span className="visual-chip">Projeto tecnico</span>
+              <span className="visual-chip">Projeto técnico</span>
             </div>
 
             <p className="cad3d-support">
-              Desenvolvemos solucoes para estruturas, equipamentos, dispositivos e
-              maquinas industriais, sempre buscando unir desempenho, seguranca,
-              eficiencia e viabilidade de execucao.
+              Desenvolvemos soluções para estruturas, equipamentos, dispositivos e
+              máquinas industriais, sempre buscando unir desempenho, segurança,
+              eficiência e viabilidade de execução.
             </p>
           </div>
         </div>

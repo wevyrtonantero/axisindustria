@@ -66,7 +66,6 @@ function Hero() {
           <h1 className="hero-title-clean hero-parallax-title">
             Soluções industriais em manutenção, reforma e desenvolvimento de máquinas.
           </h1>
-
         </div>
       </div>
     </section>

@@ -12,9 +12,9 @@ function Contact() {
       <div className="container contact-grid" data-reveal>
         <div className="contact-copy">
           <span className="section-kicker">Contato</span>
-          <h2>Fale com a Axis Industria</h2>
+          <h2>Fale com a Figueroa Indústria</h2>
           <p>
-            Entre em contato com a Axis Industria para solicitar orcamentos,
+            Entre em contato com a Figueroa Indústria para solicitar orçamentos,
             alinhar demandas de projeto e falar direto com o comercial.
           </p>
 

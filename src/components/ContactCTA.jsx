@@ -4,10 +4,10 @@ function ContactCTA({ whatsappLink }) {
       <div className="container cta-card" data-reveal>
         <div>
           <span className="section-kicker section-kicker-light">Comercial</span>
-          <h2>Vamos conversar sobre sua maquina ou projeto?</h2>
+          <h2>Vamos conversar sobre sua máquina ou projeto?</h2>
           <p>
-            Fale com a Axis Industria para avaliar manutencao, reforma, modernizacao ou
-            desenvolvimento de solucoes industriais sob medida.
+            Fale com a Figueroa Indústria para avaliar manutenção, reforma,
+            modernização ou desenvolvimento de soluções industriais sob medida.
           </p>
         </div>
 

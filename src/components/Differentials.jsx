@@ -14,7 +14,7 @@ function Differentials() {
       <div className="container" data-reveal>
         <div className="section-heading">
           <span className="section-kicker">Diferenciais</span>
-          <h2>Por que escolher a Axis?</h2>
+          <h2>Por que escolher a Figueroa?</h2>
         </div>
 
         <div className="card-grid card-grid-four">
